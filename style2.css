@@ -1,0 +1,41 @@
+body{
+	background-image: url(back.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	
+}
+
+header {
+	margin-bottom: 30px;
+	text-align: center;
+	font-style: italic;
+	color:white;
+	padding: 20px;
+}
+section {
+	flex: 1;
+	box-shadow: 0 0 6px rgba(0,0,0,0.2);
+	padding: 20px;
+	color: white;
+}
+
+
+form input[type="text"], form input[type="email"], form select {
+	display: block;
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+form button[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background-color: #7CFC00;
+	color: white;
+	border-radius: 5px;
+}
