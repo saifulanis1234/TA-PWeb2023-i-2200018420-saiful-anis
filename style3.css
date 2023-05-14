@@ -1,0 +1,38 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+form label, form select, form textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"], form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#hasil {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
